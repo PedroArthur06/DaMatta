@@ -15,7 +15,7 @@ import AnalysisSection from "../components/AnalysisSection";
 import PresentersSection from "../components/PresentersSection";
 import ReferencesSection from "../components/ReferencesSection";
 import QuizSection from "../components/QuizSection";
-import CommentsSection from "../components/CommentsSection";
+// import CommentsSection from "../components/CommentsSection";
 
 export const HomePage = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -29,7 +29,7 @@ export const HomePage = () => {
         "analysis",
         "presenters",
         "quiz",
-        "comments",
+        // "comments",
         "references",
       ];
 
@@ -202,7 +202,6 @@ export const HomePage = () => {
       <AnalysisSection />
       <PresentersSection />
       <QuizSection />
-      <CommentsSection />
       <ReferencesSection />
 
       {/* Footer */}

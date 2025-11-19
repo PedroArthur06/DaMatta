@@ -1,9 +1,9 @@
 // Mock data for Roberto DaMatta educational website
 
 export const presenters = [
-  { id: 1, name: "Apresentador 1", section: "Quem é Roberto DaMatta" },
-  { id: 2, name: "Apresentador 2", section: "Conceitos Principais do Livro" },
-  { id: 3, name: "Apresentador 3", section: "Análises e Exemplos" },
+  { id: 1, name: "Vinicius Alcântara", section: "Quem é Roberto DaMatta" },
+  { id: 2, name: "Pedro Arthur", section: "Conceitos Principais do Livro" },
+  { id: 3, name: "Rafael de Carvalho", section: "Análises e Exemplos" },
 ];
 
 export const references = [
@@ -79,26 +79,26 @@ export const quizQuestions = [
   },
 ];
 
-export const mockComments = [
-  {
-    id: 1,
-    author: "Maria Silva",
-    text: "Excelente apresentação sobre Roberto DaMatta! Muito esclarecedor.",
-    date: "2025-03-15",
-    likes: 12,
-  },
-  {
-    id: 2,
-    author: "João Santos",
-    text: "A análise dos personagens sociais é fascinante. Parabéns pelo trabalho!",
-    date: "2025-03-14",
-    likes: 8,
-  },
-  {
-    id: 3,
-    author: "Ana Costa",
-    text: "Gostei muito da forma como explicaram o significado do Carnaval na sociedade brasileira.",
-    date: "2025-03-13",
-    likes: 15,
-  },
-];
+// export const mockComments = [
+//   {
+//     id: 1,
+//     author: "Maria Silva",
+//     text: "Excelente apresentação sobre Roberto DaMatta! Muito esclarecedor.",
+//     date: "2025-03-15",
+//     likes: 12,
+//   },
+//   {
+//     id: 2,
+//     author: "João Santos",
+//     text: "A análise dos personagens sociais é fascinante. Parabéns pelo trabalho!",
+//     date: "2025-03-14",
+//     likes: 8,
+//   },
+//   {
+//     id: 3,
+//     author: "Ana Costa",
+//     text: "Gostei muito da forma como explicaram o significado do Carnaval na sociedade brasileira.",
+//     date: "2025-03-13",
+//     likes: 15,
+//   },
+// ];
